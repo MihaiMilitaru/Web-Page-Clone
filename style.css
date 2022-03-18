@@ -449,3 +449,115 @@ a.link1:hover{
     font-size: 30px;
 }
 
+/* ..........................................................Footer.ul paginii..................................................................... */
+
+.footerf{
+    width: full;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    width:100%;
+    padding-bottom: 30px;
+
+}
+
+.footer1{
+    width: full;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    font-size:30px;
+    
+}
+.buton1{
+    align-self: center;
+    font-size:0.5cm;
+    color:white;
+    border-radius:5%;
+    background-color:rgb(220, 20, 60);
+    width:200px;
+    height:70px;
+    
+}
+.footer2{
+    margin-top:50px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.telefon{
+    display:flex;
+    gap:30px;
+    flex-direction:row;
+    font-size:larger;
+}
+.telefon1{
+    display:flex;
+    color:red;
+    align-items:center;
+}
+.email{
+    display:flex;
+    gap:30px;
+    flex-direction:row;
+    font-size:larger;
+}
+.email1{
+    display:flex;
+    color:red;
+    align-items:center;
+}
+.facebook{
+    display:flex;
+    gap:30px;
+    flex-direction:row;
+    font-size:larger;
+}
+.facebook1{
+    display:flex;
+    color:red;
+    align-items:center;
+}
+.p1{
+    color:gray;
+}
+.p2{
+    color:red;
+}
+.footer3{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top:50px;
+}
+.despre{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.servicii{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.avantaje{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.pp1{
+    font-size:larger;
+    font-weight: bold;
+}
+.pp2{
+    color:gray;
+    text-decoration:none;
+}
+.pp2:hover{
+    color:red;
+}
